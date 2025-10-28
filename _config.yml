@@ -1,0 +1,30 @@
+# Jekyll configuration for GitHub Pages
+title: "WHO PGDSP Operating Principles Review"
+description: "Comparison of Genomic Data-Sharing Platforms against WHO Attributes and Principles of PGDSPs (2025)"
+baseurl: ""
+url: "https://nbx0.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# GitHub Pages settings
+repository: nbx0/pgdsp-review
+
+# Exclude files from build
+exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
